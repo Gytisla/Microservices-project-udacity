@@ -36,5 +36,5 @@ source .devops/bin/activate
 
 ### Project files
 
-/output_txt_files/docker_out.txt - output of command `./run_docker.sh`
-/output_txt_files/docker_out.txt - output of command `./run_kubernetes.sh`
+* /output_txt_files/docker_out.txt - output of command `./run_docker.sh`
+* /output_txt_files/docker_out.txt - output of command `./run_kubernetes.sh`
