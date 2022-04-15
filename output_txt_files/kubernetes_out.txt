@@ -1,4 +1,4 @@
-gytis@MacBook project-ml-microservice-kubernetes % ./run_kubernetes.sh            
+ggytis@MacBook Microservices-project-udacity % ./run_kubernetes.sh            
 pod/projectlocal created
 NAME           READY   STATUS              RESTARTS   AGE
 projectlocal   0/1     ContainerCreating   0          1s
@@ -6,3 +6,12 @@ pod/projectlocal condition met
 Forwarding from 127.0.0.1:8000 -> 80
 Forwarding from [::1]:8000 -> 80
 Handling connection for 8000
+
+
+gytis@MacBook Microservices-project-udacity % ./make_prediction.sh
+Port: 8000
+{
+  "prediction": [
+    20.35373177134412
+  ]
+}
